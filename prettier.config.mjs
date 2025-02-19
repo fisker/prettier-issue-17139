@@ -1,3 +1,6 @@
 export default {
-  plugins: ['prettier-plugin-jsdoc', '@trivago/prettier-plugin-sort-imports']
-}
+  plugins: [
+    "./reexport-prettier-plugin-jsdoc.mjs",
+    "./reexport-prettier-plugin-sort-imports.cjs",
+  ],
+};
